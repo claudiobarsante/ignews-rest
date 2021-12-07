@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { SubscribeButton } from '../components/Subscribe-Button';
 import { stripe } from '../services/stripe';
 import styles from './../styles/pages/home.module.scss';
+import Image from 'next/image';
 
 type Props = {
 	product: {
